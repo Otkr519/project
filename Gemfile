@@ -69,4 +69,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 
+  gem "aws-sdk-s3"
 end
