@@ -18,3 +18,41 @@
 .nav-item:hover:before {
 	transform: scale(1);
 }
+
+.top{
+width: 100%;
+background-image: url(coffee2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+/* background: rgb(11,103,69);
+background: linear-gradient(135deg, rgba(11,103,69,1) 16%, rgba(43,240,168,1) 100%); */
+
+}
+.top_title{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 250px;
+    text-align: center;
+    height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.h1_title{
+  font-family: "Yuji Mai", serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.h3_title{
+  font-family: "Kaisei Decol", serif;
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: 20px;
+}
